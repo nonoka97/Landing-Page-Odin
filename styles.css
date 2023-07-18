@@ -1,0 +1,147 @@
+ body {
+    background-color: black;
+ }
+
+ .container {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+ }
+
+ .header, .opener, .random-info, .quote, .footer, .sign-up-container {
+    padding: 0 100px;
+ }
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+ }
+
+ .header-links > a,
+ .opener-text > p,
+ .opener-text > button
+{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+ }
+ .header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+ }
+
+ .opener {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding-bottom: ;
+ }
+
+ .opener-text {
+    padding-bottom: 50px;
+ }
+
+ .opener-text > h1 {
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0px;
+    
+ }
+
+.opener-text > p {
+    margin:  0px;
+}
+
+ .opener-text > button {
+    background-color: #3882F6;
+    border-radius: 4px;
+    margin: 0px;
+    padding: 5px;
+ }
+
+ .opener-image > img {
+    max-width: auto;
+    max-height: 190px;
+ }
+ 
+ .random-info > h2 {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+ }
+
+.hamburgers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.burger {
+    padding: 0px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 100px;
+}
+
+.hamburgers > .burger > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+}
+
+ .quote {
+    background-color: #E5E7EB;
+
+ }
+ .quote-text {
+    color: #1F2937;
+    font-size: 36px;
+ }
+ .quote-sign {
+    font-weight: bold;
+    columns: '1F2937';
+    text-align: right;
+ }
+
+ .sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    border-radius: 6px;
+ }
+
+.sign-up-container {
+    background-color: white;
+    padding: 50px 100px;
+}
+
+ .sign-up > .order-button > button {
+    background-color: #3882F6;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    padding: 5px;
+ }
+
+ .order-text > p {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .order-place {
+    font-weight: bold;
+ }
+
+ .footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
