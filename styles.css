@@ -4,7 +4,7 @@
 
  .container {
     background-color: white;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
  }
 
@@ -17,6 +17,13 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+ .title {
+   font-size: 40px;
+   color: #F9FAF8
  }
 
  .header-links > a,
@@ -27,21 +34,23 @@
     color: #E5E7EB;
     text-decoration: none;
  }
+
+ .header-links > a {
+   padding-left: 25px;
+ }
+
  .header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
+   height: 50px;
  }
 
  .opener {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding-bottom: ;
+    padding-bottom: 30px;
  }
 
- .opener-text {
-    padding-bottom: 50px;
- }
+
 
  .opener-text > h1 {
     color: #F9FAF8;
@@ -52,6 +61,7 @@
 
 .opener-text > p {
     margin:  0px;
+    padding-bottom: 10px;
 }
 
  .opener-text > button {
@@ -64,6 +74,7 @@
  .opener-image > img {
     max-width: auto;
     max-height: 190px;
+    border-radius: 6px;
  }
  
  .random-info > h2 {
@@ -89,10 +100,14 @@
     width: 100px;
     height: 100px;
     border-radius: 6px;
+    border-color: #3882F6;
+    border-style: solid;
 }
 
  .quote {
     background-color: #E5E7EB;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
  }
  .quote-text {
@@ -103,6 +118,7 @@
     font-weight: bold;
     columns: '1F2937';
     text-align: right;
+    font-size: 24px;
  }
 
  .sign-up {
@@ -113,6 +129,7 @@
     align-items: center;
     padding: 30px 50px;
     border-radius: 6px;
+    font-size: 18px;
  }
 
 .sign-up-container {
